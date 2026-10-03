@@ -1,0 +1,11 @@
+// Định nghĩa thẻ Card thông qua mixin
+.card {
+  @include box-style;
+  max-width: 600px;
+  margin: 20px 0;
+
+  p {
+    margin-bottom: 15px;
+    color: lighten($text-color, 20%);
+  }
+}
